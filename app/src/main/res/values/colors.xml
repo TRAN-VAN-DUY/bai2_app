@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="seed">#1C7C54</color>
+    <color name="md_theme_light_primary">#1C7C54</color>
+    <color name="md_theme_light_onPrimary">#FFFFFF</color>
+    <color name="md_theme_light_primaryContainer">#A8F2D2</color>
+    <color name="md_theme_light_onPrimaryContainer">#002114</color>
+    <color name="md_theme_light_secondary">#4D6357</color>
+    <color name="md_theme_light_onSecondary">#FFFFFF</color>
+    <color name="md_theme_light_background">#F6FBF8</color>
+    <color name="md_theme_light_onBackground">#171D1A</color>
+    <color name="md_theme_light_surface">#FFFFFF</color>
+    <color name="md_theme_light_onSurface">#171D1A</color>
+    <color name="md_theme_light_surfaceVariant">#DAE5DD</color>
+    <color name="md_theme_light_onSurfaceVariant">#3F4943</color>
+    <color name="md_theme_light_outline">#6F7973</color>
+
+    <color name="app_gradient_start">#E8FFF4</color>
+    <color name="app_gradient_end">#F4F8FF</color>
+    <color name="app_banner_start">#1C7C54</color>
+    <color name="app_banner_end">#156044</color>
+    <color name="app_banner_text">#FFFFFF</color>
+    <color name="app_card">#FFFFFFFF</color>
+    <color name="app_card_soft">#F1F8F4</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
