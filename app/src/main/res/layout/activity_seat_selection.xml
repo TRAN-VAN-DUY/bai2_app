@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_gradient"
+    android:fillViewport="true"
+    android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_banner"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <ImageButton
+                android:id="@+id/btnBackSeat"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:background="@android:color/transparent"
+                android:contentDescription="Back"
+                android:padding="6dp"
+                android:src="@drawable/ic_back" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:text="Chọn ghế"
+                android:textColor="@color/app_banner_text"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/app_card"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/tvSeatShowtimeInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Thông tin suất chiếu"
+                android:textColor="@color/md_theme_light_onBackground"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/tvSeatSelected"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Ghế đang chọn: Chưa chọn"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:background="@drawable/bg_seat_available" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:text="Chưa đặt"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_marginStart="16dp"
+                    android:background="@drawable/bg_seat_booked" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="6dp"
+                    android:text="Đã đặt / đang chọn"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <GridLayout
+                android:id="@+id/gridSeats"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:alignmentMode="alignMargins"
+                android:columnCount="5"
+                android:useDefaultMargins="true" />
+
+            <Button
+                android:id="@+id/btnConfirmSeatBooking"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Xác nhận đặt vé" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
