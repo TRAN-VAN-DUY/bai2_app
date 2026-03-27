@@ -32,7 +32,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
-                android:text="Chọn ghế"
+                android:text="Chon ghe"
                 android:textColor="@color/app_banner_text"
                 android:textSize="20sp"
                 android:textStyle="bold" />
@@ -50,7 +50,7 @@
                 android:id="@+id/tvSeatShowtimeInfo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Thông tin suất chiếu"
+                android:text="Thong tin suat chieu"
                 android:textColor="@color/md_theme_light_onBackground"
                 android:textSize="15sp" />
 
@@ -59,7 +59,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
-                android:text="Ghế đang chọn: Chưa chọn"
+                android:text="Ghe dang chon: Chua chon"
                 android:textStyle="bold" />
 
             <LinearLayout
@@ -77,7 +77,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="6dp"
-                    android:text="Chưa đặt"
+                    android:text="Chua dat"
                     android:textSize="12sp" />
 
                 <TextView
@@ -90,7 +90,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginStart="6dp"
-                    android:text="Đã đặt / đang chọn"
+                    android:text="Da dat / dang chon"
                     android:textSize="12sp" />
             </LinearLayout>
 
@@ -108,7 +108,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="14dp"
-                android:text="Xác nhận đặt vé" />
+                android:text="Xac nhan dat ve" />
         </LinearLayout>
     </LinearLayout>
 </ScrollView>

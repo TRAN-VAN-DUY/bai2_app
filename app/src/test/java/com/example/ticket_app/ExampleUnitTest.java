@@ -1,4 +1,4 @@
-package com.example.bai2;
+package com.example.ticket_app;
 
 import org.junit.Test;
 
