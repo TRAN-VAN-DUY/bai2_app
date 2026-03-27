@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "bai2"
+rootProject.name = "ticket_app"
 include(":app")
  
